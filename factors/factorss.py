@@ -5,7 +5,7 @@ import subprocess
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: ./run_python_program.py <file>")
+        print("Usage: ./factors.py <file>")
         sys.exit(1)
 
     python_program = "factors.py"  # Name of the Python program
