@@ -15,7 +15,7 @@ def factorize_number(number):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: ./factorize_numbers.py <file>")
+        print("Usage: ./factores.py <file>")
         sys.exit(1)
 
     input_file = sys.argv[1]
